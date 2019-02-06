@@ -31,7 +31,10 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   #s.source_files = 'LoggerTestSDK/Classes/**/*'
-  s.vendored_libraries = 'LoggerTestSDK.framework'
+  s.vendored_libraries = 'LoggerTestSDK/LoggerTestSDK.framework'
+
+  s.xcconfig  =  { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/LoggerTestSDK"',
+      'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/Headers/LoggerTestSDK"' }
 
   # s.resource_bundles = {
   #   'LoggerTestSDK' => ['LoggerTestSDK/Assets/*.png']
