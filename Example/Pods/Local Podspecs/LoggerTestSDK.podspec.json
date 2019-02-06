@@ -1,0 +1,22 @@
+{
+  "name": "LoggerTestSDK",
+  "version": "0.1.0",
+  "summary": "A short description of LoggerTestSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/savilov/LoggerTestSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "savilov": "serega.avilov@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/savilov/LoggerTestSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LoggerTestSDK/Classes/**/*"
+}

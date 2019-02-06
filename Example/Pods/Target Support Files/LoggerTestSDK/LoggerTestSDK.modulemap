@@ -1,0 +1,6 @@
+framework module LoggerTestSDK {
+  umbrella header "LoggerTestSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

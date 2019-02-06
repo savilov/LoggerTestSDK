@@ -1,0 +1,16 @@
+PODS:
+  - LoggerTestSDK (0.1.0)
+
+DEPENDENCIES:
+  - LoggerTestSDK (from `../`)
+
+EXTERNAL SOURCES:
+  LoggerTestSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LoggerTestSDK: 3208e0a66936382446825fa52ebf6a2ed446a13e
+
+PODFILE CHECKSUM: 73813412e4c1a96eb0fd6e64fd347be7239c8de6
+
+COCOAPODS: 1.5.3
