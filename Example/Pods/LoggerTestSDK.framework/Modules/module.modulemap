@@ -1,0 +1,11 @@
+framework module LoggerTestSDK {
+  umbrella header "LoggerTestSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module LoggerTestSDK.Swift {
+    header "LoggerTestSDK-Swift.h"
+    requires objc
+}
